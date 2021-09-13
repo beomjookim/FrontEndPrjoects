@@ -1,6 +1,6 @@
 # Personal Front-End Projects - JS, CSS, HTML
 
-## 1. [Guess My Number](https://github.com/beomjookim/JSprojects/tree/main/project1):
+## 1. [Guess My Number](https://github.com/beomjookim/JSprojects/tree/main/project1)
 
 - About:  
   A random number is given and the player(you) guesses the number. Every turn you throw your guess and if it's not correct, the program gives you a hing - ups or downs. You have 20 chances and your point decreases by one as you fail to guess each turn. If you get the number right, the point that you have at the moment is your final point. If it's higher than existing highest point, it replaces.
