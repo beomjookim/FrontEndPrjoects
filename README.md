@@ -6,8 +6,8 @@
 - Used Languages: HTML, CSS, JavaScript
 - Notes: My first personal project done using HTML, CSS, JS. Learned about DOM and how to manipulate DOM while working on this project. Also learned multiple ways to connect JS with HTML and CSS, along with a number of JS grammars(such as document.querySelector) frequently used.
 - DEMO:
-<div style="text-align:center">
-  <img src="https://user-images.githubusercontent.com/29809668/133076536-e4aee95d-fe4a-47b1-a97d-1a8dd7557043.gif" width="70%" align="center">
+<div style="text-align:center;">
+  <img src="https://user-images.githubusercontent.com/29809668/133076536-e4aee95d-fe4a-47b1-a97d-1a8dd7557043.gif" width="70%">
 </div>
   
   
