@@ -30,7 +30,7 @@
 - Notes:  
   Such a simple program, but very important to understand the backgrounds regarding modal window operating systems. Was able to understand the relationships and division of roles between HTML, CSS and JS. Got a better understanding about the perks of class-based FE programming.
   
-  아주 간단한 프로그램이지만, 모달창을 띄우고 내리는 것이 어떻게 돌아가는지 하는 기본적이고 중요한 내용입니다. HTML, CSS 그리고 JS가 어떻게 역할 분담을 하여 서로 어우러지는지를 공부할 수 있었고, 클래스 기반 프로그래밍의 좋은 점을 확실히 느낄 수 있었습니다.
+  아주 간단한 프로그램이지만, 모달창을 띄우고 내리는 것이 어떻게 돌아가는지 아는 것은 아주 중요합니다. HTML, CSS 그리고 JS가 어떻게 역할 분담을 하여 서로 어우러지는지를 공부할 수 있었고, 클래스 기반 프로그래밍의 좋은 점을 확실히 느낄 수 있었습니다.
   
 - Used Languages: <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" align="center" height="20">
 
