@@ -57,13 +57,15 @@
 - DEMO:
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/133234134-11ae0023-2168-4b4e-be6d-8b6e7f01aa00.gif" width="70%">
-  If 1 comes up, the turn is revoked and turn goes to the opponent.
+  <br>
+  If 1 comes up, the turn is revoked and turn goes to the opponent.  
   1이 나오면 해당 턴은 무효화되고, 상대에게 턴이 넘어갑니다.
 </div>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/133234431-a87c8eff-3eac-43c6-898b-7c995ea99de4.gif" width="70%">
-  If a player hits 100 points first, he/she wins! New Game button leads to new game.
-  100점을 먼저 모은 쪽이 승리합니다! New Game 버튼을 누르면 초기화면으로 안내합니다.  
+  <br>
+  If a player hits 100 points first, he/she wins! New Game button leads to new game(The goal was 20 instead of 100 in this example).  
+  100점을 먼저 모은 쪽이 승리합니다! New Game 버튼을 누르면 초기화면으로 안내합니다(이 예시에서는 100점 대신 20점을 기준으로 했습니다).  
 </div>
 
