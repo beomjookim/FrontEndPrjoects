@@ -41,7 +41,7 @@
 
 <br><br><br><br><br>  
 
-## 3. Pig Game
+## 3. [Pig Game](https://github.com/beomjookim/FrontEndPrjoects/tree/main/project3)
 
 - About:
   2 players play the game. Player1 starts first. Player roll the dice which has sides of 1~6, and the values are cumulatively added to be the player's point. If 1 is up, the player's point resets and turn goes to the opponent. If the player click the hold button, points til the moment adds up to the player's cumulative point, and turn goes to the opponent. The one gets to 100 points first wins.
