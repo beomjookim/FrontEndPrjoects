@@ -22,7 +22,7 @@
   A simple modal window operator. We have 3 buttons that lead to open modal windows. To close, you can either 1. hit the ESC button, 2. click the X, 3. click the overlay field.
   
 - Notes:  
-  Such a simple program, but very important to understand the backgrounds regarding modal window operating systems. Need to understand the relationships and division of roles between HTML, CSS and JS.
+  Such a simple program, but very important to understand the backgrounds regarding modal window operating systems. Need to understand the relationships and division of roles between HTML, CSS and JS. Got a better understanding about class-based FE programming.
   
 - Used Languages: <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" align="center" height="20">
 
