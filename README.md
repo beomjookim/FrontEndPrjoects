@@ -19,7 +19,7 @@
   <img src="https://user-images.githubusercontent.com/29809668/133076536-e4aee95d-fe4a-47b1-a97d-1a8dd7557043.gif" width="70%">
 </div>
   
-  
+<br><br><br><br><br>  
 ## 2. [Modal Windows](https://github.com/beomjookim/FrontEndPrjoects/tree/main/project2)
 
 - About:  
@@ -39,6 +39,7 @@
   <img src="https://user-images.githubusercontent.com/29809668/133104474-52b85227-2690-4416-863f-d105d9135ba3.gif" width="70%">
 </div>
 
+<br><br><br><br><br>  
 
 ## 3. Pig Game
 
