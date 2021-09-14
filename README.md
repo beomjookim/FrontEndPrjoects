@@ -66,6 +66,6 @@
   <img src="https://user-images.githubusercontent.com/29809668/133234431-a87c8eff-3eac-43c6-898b-7c995ea99de4.gif" width="70%">
   <br>
   If a player hits 100 points first, he/she wins! New Game button leads to new game(The goal was 20 instead of 100 in this example).<br>
-  100점을 먼저 모은 쪽이 승리합니다! New Game 버튼을 누르면 초기화면으로 안내합니다(이 예시에서는 100점 대신 20점을 기준으로 했습니다).  
+  100점을 먼저 모은 쪽이 승리합니다! New Game 버튼을 누르면 초기화면으로 안내합니다(예시에서는 100점 대신 20점을 기준으로 했습니다).  
 </div>
 
