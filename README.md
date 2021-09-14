@@ -61,7 +61,7 @@
   If 1 comes up, the turn is revoked and turn goes to the opponent.<br>
   1이 나오면 해당 턴은 무효화되고, 상대에게 턴이 넘어갑니다.
 </div>
-
+<br><br>
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/133234431-a87c8eff-3eac-43c6-898b-7c995ea99de4.gif" width="70%">
   <br>
