@@ -45,7 +45,7 @@ bHold.addEventListener('click', function () {
     scores[activePlayer] += curScore;
     eval('score' + activePlayer + 'El').textContent = scores[activePlayer];
 
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.add('player--winner');
