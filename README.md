@@ -40,9 +40,30 @@
 </div>
 
 
-## 3. something
+## 3. Pig Game
 
 - About:
+  2 players play the game. Player1 starts first. Player roll the dice which has sides of 1~6, and the values are cumulatively added to be the player's point. If 1 is up, the player's point resets and turn goes to the opponent. If the player click the hold button, points til the moment adds up to the player's cumulative point, and turn goes to the opponent. The one gets to 100 points first wins.
+
+  두 사람이 진행하는 게임입니다. player 1이 먼저 시작합니다. 1~6의 면이 있는 주사위를 굴려서 나오는 수들을 더한 값이 본인의 점수가 됩니다. 이때 1이 나오면 해당 턴의 점수는 모두 리셋되고, 차례는 상대에게 돌아갑니다. 충분히 모았다 싶을 때 hold 버튼을 누르면 기존 본인의 점수에 추가되고, 역시 상대에게 차례가 돌아갑니다. 먼저 100점을 모으는 쪽이 승리합니다.
+
 - Notes:
-- Used Languages:
+  Learned quite a lot of techniques. Learned how to program CSS, JS to make the game played by 2 or more players. I used new JS methods such as eval, getElementById. Also I learned how to inactivate the whole window but New Game key when the winner is chosen, and initialize the program when New Game button was hit.
+  
+  꽤 많은 테크닉을 배울 수 있었던 프로젝트입니다. 두 명 이상이 번갈아가며 플레이 할 수 있게 프로그래밍 하는 데 필요한 CSS, JS 작업을 공부하였습니다. 또한, eval, getElementById 등의 새로운 메소드를 활용하였습니다. 승자가 나왔을 때 화면이 멈추고 New Game 키만 활성화시키는 것과, New Game을 눌렀을 때 초기화가 되게끔 만드는 방법을 배웠습니다.
+
+- Used Languages: <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" align="center" height="20">
+
 - DEMO:
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/29809668/133234134-11ae0023-2168-4b4e-be6d-8b6e7f01aa00.gif" width="70%">
+  If 1 comes up, the turn is revoked and turn goes to the opponent.
+  1이 나오면 해당 턴은 무효화되고, 상대에게 턴이 넘어갑니다.
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/29809668/133234431-a87c8eff-3eac-43c6-898b-7c995ea99de4.gif" width="70%">
+  If a player hits 100 points first, he/she wins! New Game button leads to new game.
+  100점을 먼저 모은 쪽이 승리합니다! New Game 버튼을 누르면 초기화면으로 안내합니다.  
+</div>
+
