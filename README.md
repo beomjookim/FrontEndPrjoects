@@ -75,11 +75,12 @@
 ## 4. [Banking App]()
 
 - About:
-  An online banking web application that users can have transactions on, loan money from the bank, check balance and transaction histories.
+  An online banking web application that users can have transactions on, loan money from the bank, check balance and transaction histories. Customized timeline and money notation is shown(exchange rate is not applied). I the user doesn't have any further movements such as logout, transfer, loan, delete account, the user will automatically logged out for security reasons.
   앱에 가입한 유저들끼리 금전적인 거래를 하고, 은행으로부터 돈을 빌리고, 잔고를 확인할 수 있는, 또한 거래내역을 확인 및 요약하여 보여주는 앱입니다. 각 유저의 locale에 따른 시간대와 금액 표기 방법이 맞춤형으로 제시됩니다. 실제 은행 앱들처럼 로그인 후 로그아웃 없이 입금, 대출, 계정 삭제 등의 기능을 사용 안 한지 5분이 지나면 자동으로 로그아웃 됩니다.
 
 - What I Learned:
-  API에서 사용자 데이터를 가져왔다고 가정하고, 더미 데이터로 로그인을 하고, 로그아웃을 하는 동작을 구현할 수 있게 되었습니다. 기존의 querySelector에서 더 나아가서, insertAdjacentHTML을 활용하여 HTML을 동적으로 추가하는 방법을 사용하였습니다. 고차함수를 활용하려 노력했고, 화살표 함수도 활용하였습니다. 로그인, 입금, 대출, 계정 삭제 등의 기능들을 이벤트 핸들러를 통해 구현하였습니다. preventDefault()를 적극 활용합니다. 각각의 이벤트가 끝나면 해당 이벤트의 내용에 따라 UI를 갱신해주었습니다. 또한, Intl API를 활용하여 각 유저의 현재 위치한 locale의 시간대와 금액 표기법을 따랐습니다. 마지막으로, setTimeOut 대신 setInterval을 활용하여 
+  Assuming we got users' data from API(used dummy data instead), I leanred how to implement log-in and log-out functions with them. 
+  API에서 사용자 데이터를 가져왔다고 가정하고, 더미 데이터로 로그인을 하고, 로그아웃을 하는 동작을 구현할 수 있게 되었습니다. 기존의 querySelector에서 더 나아가서, insertAdjacentHTML을 활용하여 HTML을 동적으로 추가하는 방법을 사용하였습니다. 고차함수를 활용하려 노력했고, 화살표 함수도 활용하였습니다. 로그인, 입금, 대출, 계정 삭제 등의 기능들을 이벤트 핸들러를 통해 구현하였습니다. preventDefault()의 중요성을 파악했습니다. 각각의 이벤트가 끝나면 해당 이벤트의 내용에 따라 UI를 갱신해주었습니다. 또한, Intl API를 활용하여 각 유저의 현재 위치한 locale의 시간대와 금액 표기법을 따랐습니다. 마지막으로, setTimeOut 대신 setInterval을 활용하여 
 
 - Used Languages: <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" align="center" height="20">
 
