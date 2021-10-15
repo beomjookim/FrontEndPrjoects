@@ -112,5 +112,6 @@
   <img src="https://user-images.githubusercontent.com/29809668/137443611-6746571f-bdc8-4266-9f3a-96c86b7ae079.gif" width="70%">
   <br>  
   With the Loan button, you can burrow the amount of money less than 10% of the balance.  
+  
   Loan입니다. 설정한 한도(현재 본인의 잔액의 10% 이하)에 맞는 금액만을 받을 수 있습니다.
 </div>
