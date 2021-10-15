@@ -7,7 +7,7 @@
 
   랜덤한 숫자가 주어지고 플레이어는 이 숫자를 추측합니다. 플레이어는 매 턴마다 추측한 숫자를 체크하고, 프로그램은 up과 down을 통해 타겟 숫자와의 관계를 알려줍니다. 총 20번의 기회가 주어지고, 틀릴 때마다 1점씩 감점이 됩니다. 옳은 숫자를 추측하게 되면, 해당 시점의 점수가 최종 점수가 되며, 기존의 최고 점수보다 높을 경우 최고 점수를 갈아치웁니다.
 
-- Notes:
+- What I Learned:
   My first personal project done using HTML, CSS, JS. Learned about DOM and how to manipulate DOM while working on this project. Also learned multiple ways to connect JS with HTML and CSS, along with a number of JS grammars(such as document.querySelector) frequently used.
   
   HTML, CSS, JS를 활용한 첫 번째 프로그램입니다. DOM이 무엇인지, DOM 조작은 어떻게 하는지에 대해 공부할 수 있었습니다. 또한 JS와 HTML, CSS가 각각의 모듈 형태로 어떻게 어우러지는지를 확인할 수 있었습니다. 그 과정에서 document.querySelector과 같은 자주 쓰이는 JS 문법도 활용할 수 있게 되었습니다.
@@ -27,7 +27,7 @@
   
   간단한 모달 창입니다. 모달 창을 띄울 수 있는 세 개의 버튼이 있습니다. 띄운 모달 창을 닫기 위해서, 1. ESC 버튼을 누르거나 2. X 버튼을 클릭하거나 3. overlay부분을 클릭할 수 있습니다.
   
-- Notes:  
+- What I Learned:  
   Such a simple program, but very important to understand the backgrounds regarding modal window operating systems. Was able to understand the relationships and division of roles between HTML, CSS and JS. Got a better understanding about the perks of class-based FE programming.
   
   아주 간단한 프로그램이지만, 모달창을 띄우고 내리는 것이 어떻게 돌아가는지 아는 것은 아주 중요합니다. HTML, CSS 그리고 JS가 어떻게 역할 분담을 하여 서로 어우러지는지를 공부할 수 있었고, 클래스 기반 프로그래밍의 좋은 점을 확실히 느낄 수 있었습니다.
@@ -48,7 +48,7 @@
 
   두 사람이 진행하는 게임입니다. player 1이 먼저 시작합니다. 1~6의 면이 있는 주사위를 굴려서 나오는 수들을 더한 값이 본인의 점수가 됩니다. 이때 1이 나오면 해당 턴의 점수는 모두 리셋되고, 차례는 상대에게 돌아갑니다. 충분히 모았다 싶을 때 hold 버튼을 누르면 기존 본인의 점수에 추가되고, 역시 상대에게 차례가 돌아갑니다. 먼저 100점을 모으는 쪽이 승리합니다.
 
-- Notes:
+- What I Learned:
   Learned quite a lot of techniques. Learned how to program CSS, JS to make the game played by 2 or more players. I used new JS methods such as eval, getElementById. Also I learned how to inactivate the whole window but New Game key when the winner is chosen, and initialize the program when New Game button was hit.
   
   꽤 많은 테크닉을 배울 수 있었던 프로젝트입니다. 두 명 이상이 번갈아가며 플레이 할 수 있게 프로그래밍 하는 데 필요한 CSS, JS 작업을 공부하였습니다. 또한, eval, getElementById 등의 새로운 메소드를 활용하였습니다. 승자가 나왔을 때 화면이 멈추고 New Game 키만 활성화시키는 것과, New Game을 눌렀을 때 초기화가 되게끔 만드는 방법을 배웠습니다.
@@ -74,11 +74,12 @@
 
 ## 4. [Banking App]()
 
-- About:  
+- About:
+  An online banking web application that users can have transactions on, loan money from the bank, check balance and transaction histories.
+  앱에 가입한 유저들끼리 금전적인 거래를 하고, 은행으로부터 돈을 빌리고, 잔고를 확인할 수 있는, 또한 거래내역을 확인 및 요약하여 보여주는 앱입니다. 각 유저의 locale에 따른 시간대와 금액 표기 방법이 맞춤형으로 제시됩니다. 실제 은행 앱들처럼 로그인 후 로그아웃 없이 입금, 대출, 계정 삭제 등의 기능을 사용 안 한지 5분이 지나면 자동으로 로그아웃 됩니다.
 
-
-- Notes:
-
+- What I Learned:
+  API에서 사용자 데이터를 가져왔다고 가정하고, 더미 데이터로 로그인을 하고, 로그아웃을 하는 동작을 구현할 수 있게 되었습니다. 기존의 querySelector에서 더 나아가서, insertAdjacentHTML을 활용하여 HTML을 동적으로 추가하는 방법을 사용하였습니다. 고차함수를 활용하려 노력했고, 화살표 함수도 활용하였습니다. 로그인, 입금, 대출, 계정 삭제 등의 기능들을 이벤트 핸들러를 통해 구현하였습니다. preventDefault()를 적극 활용합니다. 각각의 이벤트가 끝나면 해당 이벤트의 내용에 따라 UI를 갱신해주었습니다. 또한, Intl API를 활용하여 각 유저의 현재 위치한 locale의 시간대와 금액 표기법을 따랐습니다. 마지막으로, setTimeOut 대신 setInterval을 활용하여 
 
 - Used Languages: <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" align="center" height="20">
 
