@@ -98,26 +98,26 @@
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/137443577-8d1bf03b-0059-401f-880f-ab3b5762f595.gif" width="70%">
-  <br align="left">  
+</div?
+<br align="left">  
   If I click sort button, the transaction history is sorted by the amount of money.  
   
   중하단의 sort 버튼을 누르면 금액의 크기에 따라 내림차순으로 정렬됩니다.
 <br><br>
 
-</div>  
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/137443595-3cad223a-76c3-41ad-bab8-7fbe6c853458.gif" width="70%">
-  <br align="left">  
+</div>
+<br align="left">  
   Transfer money button enables to send money to another user, as long as the amount is within my balance. I send 1200 to jd, who is an american. Then I log-out, and log in as jd. All the interfaces are changed for this American user, and I see 1200 is right there at transaction history. I didn't consider Exchange Rate, but it can be fixed sooner or later.  
   
   Transfer money를 통해 다른 유저에게 송금이 가능합니다. 물론 현재 잔액 이하의 금액만 보낼 수 있습니다. jd에게 1200을 보내보겠습니다. 그리고 로그아웃 후 jd의 계정으로 입장하면, 모든 인터페이스는 미국인에 맞게 바뀌고, 방금 js한테서 받은 1200이 찍혀있는 걸 확인할 수 있습니다. 환율 상의 문제는 있으나, 프로그램은 의도대로 실행되는 것을 확인할 수 있습니다.
 <br><br>
 
-</div>
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/137443611-6746571f-bdc8-4266-9f3a-96c86b7ae079.gif" width="70%">
-  <br align="left">  
+</div>
+<br align="left">  
   With the Loan button, you can burrow the amount of money less than 10% of the balance.    
   
   Loan입니다. 설정한 한도(현재 본인의 잔액의 10% 이하)에 맞는 금액만을 받을 수 있습니다.
-</div>
