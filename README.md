@@ -87,15 +87,15 @@
 - Used Languages: <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" align="center" height="20">
 
 - DEMO:  
-<div>
-  <img align="center" src="https://user-images.githubusercontent.com/29809668/137443411-0f000144-c389-405f-b408-43277e0d38d7.gif" width="70%">
-  <br align="left">  
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/29809668/137443411-0f000144-c389-405f-b408-43277e0d38d7.gif" width="70%">
+</div>
+<br align="left">  
   Log-in interface. Unregistered account cannot sign in. Alert shows up. I will use the account of Jonah Silverman, a virtual Portugese. As I log in, I can see whose ID that I am logged-in, transaction history, balance, and there are Transfer, Loan, Account Delete buttons. The timeline at upper-left side shows my locale(which is Seoul, Korea) and currency, notations are in Portugese way. I see auto log-out time left at lower-right side.  
     
   로그인 화면입니다. 등록되지 않은 계정은 로그인이 안 됩니다. 알림창이 뜹니다. Jonah Silverman이라는 가상의 포르투갈인으로 들어가보겠습니다. 입장 후 화면에서는 누구의 계정으로 입장했는지, 거래내역, 잔액을 확인할 수 있고, 이체, 대출, 계정 삭제 등의 버튼이 보입니다. 타임라인은 현재 개발자 본인의 locale(한국 서울)에 따른 표기법으로 되어 있고, 돈의 단위 및 표기법은 모두 유저(포르투갈 유저 계정으로 들어옴)에 맞춰져 있습니다. 우하단에 자동 로그아웃 시간도 표시되어 있습니다.
 <br><br>
 
-</div>
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/137443577-8d1bf03b-0059-401f-880f-ab3b5762f595.gif" width="70%">
   <br align="left">  
