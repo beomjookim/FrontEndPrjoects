@@ -98,7 +98,7 @@
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/137443577-8d1bf03b-0059-401f-880f-ab3b5762f595.gif" width="70%">
-</div?
+</div>
 <br align="left">  
   If I click sort button, the transaction history is sorted by the amount of money.  
   
