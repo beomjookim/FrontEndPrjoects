@@ -8,7 +8,7 @@
   랜덤한 숫자가 주어지고 플레이어는 이 숫자를 추측합니다. 플레이어는 매 턴마다 추측한 숫자를 체크하고, 프로그램은 up과 down을 통해 타겟 숫자와의 관계를 알려줍니다. 총 20번의 기회가 주어지고, 틀릴 때마다 1점씩 감점이 됩니다. 옳은 숫자를 추측하게 되면, 해당 시점의 점수가 최종 점수가 되며, 기존의 최고 점수보다 높을 경우 최고 점수를 갈아치웁니다.
 
 - What I Learned:  
-  My first personal project done using HTML, CSS, JS. Learned about DOM and how to manipulate DOM while working on this project. Also learned multiple ways to connect JS with HTML and CSS, along with a number of JS grammars(such as document.querySelector) frequently used.
+  My first toy project done using HTML, CSS, JS. Learned about DOM and how to manipulate DOM while working on this project. Also learned multiple ways to connect JS with HTML and CSS, along with a number of JS grammars(such as document.querySelector) frequently used.
   
   HTML, CSS, JS를 활용한 첫 번째 프로그램입니다. DOM이 무엇인지, DOM 조작은 어떻게 하는지에 대해 공부할 수 있었습니다. 또한 JS와 HTML, CSS가 각각의 모듈 형태로 어떻게 어우러지는지를 확인할 수 있었습니다. 그 과정에서 document.querySelector과 같은 자주 쓰이는 JS 문법도 활용할 수 있게 되었습니다.
 
@@ -25,7 +25,7 @@
 - About:  
   A simple modal window operator. We have 3 buttons that lead to open modal windows. To close, you can either 1. hit the ESC button, 2. click the X, 3. click the overlay field. 
   
-  간단한 모달 창입니다. 모달 창을 띄울 수 있는 세 개의 버튼이 있습니다. 띄운 모달 창을 닫기 위해서, 1. ESC 버튼을 누르거나 2. X 버튼을 클릭하거나 3. overlay부분을 클릭할 수 있습니다.
+  간단한 모달 창입니다. 모달 창을 띄울 수 있는 세 개의 버튼이 있습니다. 띄운 모달 창을 닫기 위해서, 1. ESC 버튼을 누르거나 2. X 버튼을 클릭하거나 3. overlay 부분을 클릭할 수 있습니다.
   
 - What I Learned:  
   Such a simple program, but very important to understand the backgrounds regarding modal window operating systems. Was able to understand the relationships and division of roles between HTML, CSS and JS. Got a better understanding about the perks of class-based FE programming.
