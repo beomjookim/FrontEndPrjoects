@@ -3,7 +3,7 @@
 ## 1. [Guess My Number](https://github.com/beomjookim/JSprojects/tree/main/project1)
 
 - About:  
-  A random number is given and the player(you) guesses the number. Every turn you throw your guess and if it's not correct, the program gives you a hint - ups or downs. You have 20 chances and your point decreases by one as you fail to guess each turn. If you get the number right, the point that you have at the moment is your final point. If it's higher than existing highest point, it replaces.
+  A random number is given and the player(you) guesses the number. Every turn you throw your guess and if it's not correct, the program gives you a hint - ups or downs. You have 20 chances and your point decreases by one as you fail to guess each turn. If you get the number right, your point at the moment is your final point. If it's higher than existing highest point, it replaces the existing one.
 
   랜덤한 숫자가 주어지고 플레이어는 이 숫자를 추측합니다. 플레이어는 매 턴마다 추측한 숫자를 체크하고, 프로그램은 up과 down을 통해 타겟 숫자와의 관계를 알려줍니다. 총 20번의 기회가 주어지고, 틀릴 때마다 1점씩 감점이 됩니다. 옳은 숫자를 추측하게 되면, 해당 시점의 점수가 최종 점수가 되며, 기존의 최고 점수보다 높을 경우 최고 점수를 갈아치웁니다.
 
