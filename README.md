@@ -7,7 +7,7 @@
 
   랜덤한 숫자가 주어지고 플레이어는 이 숫자를 추측합니다. 플레이어는 매 턴마다 추측한 숫자를 체크하고, 프로그램은 up과 down을 통해 타겟 숫자와의 관계를 알려줍니다. 총 20번의 기회가 주어지고, 틀릴 때마다 1점씩 감점이 됩니다. 옳은 숫자를 추측하게 되면, 해당 시점의 점수가 최종 점수가 되며, 기존의 최고 점수보다 높을 경우 최고 점수를 갈아치웁니다.
 
-- What I Learned:
+- What I Learned:  
   My first personal project done using HTML, CSS, JS. Learned about DOM and how to manipulate DOM while working on this project. Also learned multiple ways to connect JS with HTML and CSS, along with a number of JS grammars(such as document.querySelector) frequently used.
   
   HTML, CSS, JS를 활용한 첫 번째 프로그램입니다. DOM이 무엇인지, DOM 조작은 어떻게 하는지에 대해 공부할 수 있었습니다. 또한 JS와 HTML, CSS가 각각의 모듈 형태로 어떻게 어우러지는지를 확인할 수 있었습니다. 그 과정에서 document.querySelector과 같은 자주 쓰이는 JS 문법도 활용할 수 있게 되었습니다.
@@ -94,7 +94,7 @@
   Log-in interface. Unregistered account cannot sign in. Alert shows up. I will use the account of Jonah Silverman, a virtual Portugese. As I log in, I can see whose ID that I am logged-in, transaction history, balance, and there are Transfer, Loan, Account Delete buttons. The timeline at upper-left side shows my locale(which is Seoul, Korea) and currency, notations are in Portugese way. I see auto log-out time left at lower-right side.  
     
   로그인 화면입니다. 등록되지 않은 계정은 로그인이 안 됩니다. 알림창이 뜹니다. Jonah Silverman이라는 가상의 포르투갈인으로 들어가보겠습니다. 입장 후 화면에서는 누구의 계정으로 입장했는지, 거래내역, 잔액을 확인할 수 있고, 이체, 대출, 계정 삭제 등의 버튼이 보입니다. 타임라인은 현재 개발자 본인의 locale(한국 서울)에 따른 표기법으로 되어 있고, 돈의 단위 및 표기법은 모두 유저(포르투갈 유저 계정으로 들어옴)에 맞춰져 있습니다. 우하단에 자동 로그아웃 시간도 표시되어 있습니다.
-<br><br>
+<br><br><br>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/137443577-8d1bf03b-0059-401f-880f-ab3b5762f595.gif" width="70%">
@@ -103,7 +103,8 @@
   If I click sort button, the transaction history is sorted by the amount of money.  
   
   중하단의 sort 버튼을 누르면 금액의 크기에 따라 내림차순으로 정렬됩니다.
-<br><br>
+<br><br><br>
+
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/137443595-3cad223a-76c3-41ad-bab8-7fbe6c853458.gif" width="70%">
@@ -112,7 +113,8 @@
   Transfer money button enables to send money to another user, as long as the amount is within my balance. I send 1200 to jd, who is an american. Then I log-out, and log in as jd. All the interfaces are changed for this American user, and I see 1200 is right there at transaction history. I didn't consider Exchange Rate, but it can be fixed sooner or later.  
   
   Transfer money를 통해 다른 유저에게 송금이 가능합니다. 물론 현재 잔액 이하의 금액만 보낼 수 있습니다. jd에게 1200을 보내보겠습니다. 그리고 로그아웃 후 jd의 계정으로 입장하면, 모든 인터페이스는 미국인에 맞게 바뀌고, 방금 js한테서 받은 1200이 찍혀있는 걸 확인할 수 있습니다. 환율 상의 문제는 있으나, 프로그램은 의도대로 실행되는 것을 확인할 수 있습니다.
-<br><br>
+<br><br><br>
+
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29809668/137443611-6746571f-bdc8-4266-9f3a-96c86b7ae079.gif" width="70%">
