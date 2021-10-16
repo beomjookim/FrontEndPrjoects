@@ -87,8 +87,8 @@
 - Used Languages: <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" align="center" height="20">
 
 - DEMO:  
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/29809668/137443411-0f000144-c389-405f-b408-43277e0d38d7.gif" width="70%">
+<div>
+  <img align="center" src="https://user-images.githubusercontent.com/29809668/137443411-0f000144-c389-405f-b408-43277e0d38d7.gif" width="70%">
   <br align="left">  
   Log-in interface. Unregistered account cannot sign in. Alert shows up. I will use the account of Jonah Silverman, a virtual Portugese. As I log in, I can see whose ID that I am logged-in, transaction history, balance, and there are Transfer, Loan, Account Delete buttons. The timeline at upper-left side shows my locale(which is Seoul, Korea) and currency, notations are in Portugese way. I see auto log-out time left at lower-right side.  
     
