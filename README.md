@@ -80,9 +80,9 @@
   앱에 가입한 유저들끼리 금전적인 거래를 하고, 은행으로부터 돈을 빌리고, 잔고를 확인할 수 있는, 또한 거래내역을 확인 및 요약하여 보여주는 앱입니다. 각 유저의 locale에 따른 시간대와 금액 표기 방법이 맞춤형으로 제시됩니다. 실제 은행 앱들처럼 로그인 후 로그아웃 없이 입금, 대출, 계정 삭제 등의 기능을 사용 안 한지 5분이 지나면 자동으로 로그아웃 됩니다.
 
 - What I Learned:  
-  Assuming we got users' data from API(used dummy data instead), I leanred how to implement log-in and log-out functions using them. I used inserAdjacentHTML, the upgraded version of querySelector, to dynamically add HTML codes. I used higher-order functions and arrow function. Functions like Log-in, deposit, loan, deleting account are implemented using event handlers. preventDefault() was easy to forget, but crucial. I renewed UI after each event. Also, I used Intl API to customize the user's timezone and money notation. Lastly, I used setInterval instead of setTimeOut to show 'time to be automatically logged out' in real time as well as the auto logout function.  
+  Assuming we got users' data from API(used dummy data instead), I leanred how to implement log-in and log-out functions using them. I used inserAdjacentHTML, the upgraded version of querySelector, to dynamically add HTML codes. I used higher-order functions and arrow function. Functions like Log-in, deposit, loan, deleting account are implemented using event handlers. preventDefault() was easy to forget, but crucial. I renewed UI after each event. Also, I used Intl API to customize the user's timezone and money notation. Also, I used setInterval instead of setTimeOut to show 'time to be automatically logged out' in real time as well as the auto logout function. Lastly, I used exchange rate API to convert money based on currency of each user and exchange rate in real time when transferring. This was my first time fetching data from browser and applying it to the app.
   
-  API에서 사용자 데이터를 가져왔다고 가정하고, 더미 데이터로 로그인을 하고, 로그아웃을 하는 동작을 구현할 수 있게 되었습니다. 기존의 querySelector에서 더 나아가서, insertAdjacentHTML을 활용하여 HTML을 동적으로 추가하는 방법을 사용하였습니다. 고차함수를 활용하려 노력했고, 화살표 함수도 활용하였습니다. 로그인, 입금, 대출, 계정 삭제 등의 기능들을 이벤트 핸들러를 통해 구현하였습니다. preventDefault()의 중요성을 파악했습니다. 각각의 이벤트가 끝나면 해당 이벤트의 내용에 따라 UI를 갱신해주었습니다. 또한, Intl API를 활용하여 각 유저의 현재 위치한 locale의 시간대와 금액 표기법을 따랐습니다. 마지막으로, setTimeOut 대신 setInterval을 활용하여 자동으로 로그아웃 되는 시간을 카운트다운하고 자동 로그아웃을 시켰습니다.
+  API에서 사용자 데이터를 가져왔다고 가정하고, 더미 데이터로 로그인을 하고, 로그아웃을 하는 동작을 구현할 수 있게 되었습니다. 기존의 querySelector에서 더 나아가서, insertAdjacentHTML을 활용하여 HTML을 동적으로 추가하는 방법을 사용하였습니다. 고차함수를 활용하려 노력했고, 화살표 함수도 활용하였습니다. 로그인, 입금, 대출, 계정 삭제 등의 기능들을 이벤트 핸들러를 통해 구현하였습니다. preventDefault()의 중요성을 파악했습니다. 각각의 이벤트가 끝나면 해당 이벤트의 내용에 따라 UI를 갱신해주었습니다. 또한, Intl API를 활용하여 각 유저의 현재 위치한 locale의 시간대와 금액 표기법을 따랐습니다. 추가로, setTimeOut 대신 setInterval을 활용하여 자동으로 로그아웃 되는 시간을 카운트다운하고 자동 로그아웃을 시켰습니다. 마지막으로, 유저 간의 통화가 다른 경우에는 환율 API를 가져와 실시간 환율에 맞게 바꿔주었습니다. API를 통해 브라우저에서 실시간 데이터를 가져와 활용한 제 첫 번째 시도입니다.
 
 - Used Languages: <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center" height="20"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" align="center" height="20">
 
@@ -110,9 +110,9 @@
   <img src="https://user-images.githubusercontent.com/29809668/137443595-3cad223a-76c3-41ad-bab8-7fbe6c853458.gif" width="70%">
 </div>
 <br align="left">  
-  Transfer money button enables to send money to another user, as long as the amount is within my balance. I send 1200 to jd, who is an american. Then I log-out, and log in as jd. All the interfaces are changed for this American user, and I see 1200 is right there at transaction history. I didn't consider Exchange Rate, but it can be fixed sooner or later.
+  Transfer money button enables to send money to another user, as long as the amount is within my balance. I send 1200 to jd, who is an american. Then I log-out, and log in as jd. All the interfaces are changed for this American user, and I see 1200 is right there at transaction history. I didn't consider Exchange Rate, but it can be fixed sooner or later (<= issue solved! check the bottom).
   
-  Transfer money를 통해 다른 유저에게 송금이 가능합니다. 물론 현재 잔액 이하의 금액만 보낼 수 있습니다. jd에게 1200을 보내보겠습니다. 그리고 로그아웃 후 jd의 계정으로 입장하면, 모든 인터페이스는 미국인에 맞게 바뀌고, 방금 js한테서 받은 1200이 찍혀있는 걸 확인할 수 있습니다. 환율 상의 문제는 있으나, 프로그램은 의도대로 실행되는 것을 확인할 수 있습니다.
+  Transfer money를 통해 다른 유저에게 송금이 가능합니다. 물론 현재 잔액 이하의 금액만 보낼 수 있습니다. jd에게 1200을 보내보겠습니다. 그리고 로그아웃 후 jd의 계정으로 입장하면, 모든 인터페이스는 미국인에 맞게 바뀌고, 방금 js한테서 받은 1200이 찍혀있는 걸 확인할 수 있습니다. 환율 상의 문제는 있으나(환율 API로 해결, 하단 참조), 프로그램은 의도대로 실행되는 것을 확인할 수 있습니다.
 <br><br><br>
 
 
@@ -121,5 +121,16 @@
 </div>
 <br align="left">  
   With the Loan button, you can burrow the amount of money less than 10% of the balance.
+  
+  Loan입니다. 설정한 한도(현재 본인의 잔액의 10% 이하)에 맞는 금액만을 빌릴 수 있습니다.
+
+
+<br><br><br>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/29809668/138204981-ab8b7430-184a-4269-9783-df17e567aa64.gif" width="70%">
+</div>
+<br align="left">  
+  I used exchange rate API to convert money based on currency of each user when transferring. For example, when Jonah(EUR) send € 100 to Jessica, Jonah has -€100 on his account, while Jessica gets +$xxx on her account. Exchange rate in real time is applied!
   
   Loan입니다. 설정한 한도(현재 본인의 잔액의 10% 이하)에 맞는 금액만을 빌릴 수 있습니다.
