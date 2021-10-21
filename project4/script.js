@@ -21,7 +21,7 @@ const account1 = {
     '2021-10-12T10:51:36.790Z',
   ],
   currency: 'EUR',
-  locale: 'pt-PT', // 포르투갈
+  locale: 'pt-PT', // 포르투갈(유로)
 };
 
 const account2 = {
@@ -43,8 +43,11 @@ const account2 = {
   currency: 'USD',
   locale: 'en-US', // 미국
 };
-
 const accounts = [account1, account2];
+
+// transfer를 위해 환율 API를 사용! nodejs가 아니기 때문에 node-fetch 불필요!
+// import fetch from 'node-fetch';
+let API_KEY = '';
 
 // HTML과의 연결고리. 모두 document.querySelector 활용.
 const labelWelcome = document.querySelector('.welcome');
@@ -200,8 +203,10 @@ btnLogin.addEventListener('click', function (e) {
   currentAccount = accounts.find(
     acc => acc.username === inputLoginUsername.value
   );
-  if (!currentAccount) alert('Wrong log-in info!');
+  console.log(currentAccount);
+  if (!currentAccount);
   else {
+    // alert('Wrong log-in info!');
     if (currentAccount.pin === Number(inputLoginPin.value)) {
       labelWelcome.textContent = `Welcome back, ${
         currentAccount.owner.split(' ')[0]
@@ -235,21 +240,33 @@ btnLogin.addEventListener('click', function (e) {
 });
 
 // 현금 보내기/ 받기
-btnTransfer.addEventListener('click', function (e) {
+btnTransfer.addEventListener('click', async e => {
   e.preventDefault();
 
   let receiverAcc = accounts.find(
     acc => acc.username === inputTransferTo.value
   );
   if (!receiverAcc || receiverAcc === currentAccount) {
-    alert('Not a valid ID');
+    // alert('Not a valid ID');
   } else {
     let amount = Number(inputTransferAmount.value);
     if (amount <= 0 || currentAccount.balance < amount) {
       alert('Not a valid amount of money');
     } else {
+      let exRate = 1;
+      if (currentAccount.currency != receiverAcc.currency) {
+        API_KEY = currentAccount.currency + receiverAcc.currency;
+        const response = await fetch(
+          `https://exchange.jaeheon.kr:23490/query/${API_KEY}`
+        )
+          .then(res => res.json())
+          .catch(e => {
+            console.error({ message: 'error!', error: e });
+          });
+        exRate = response[API_KEY][0];
+      }
       currentAccount.movements.push(-amount);
-      receiverAcc.movements.push(amount);
+      receiverAcc.movements.push(amount * exRate);
       currentAccount.movementsDates.push(new Date().toISOString());
       receiverAcc.movementsDates.push(new Date().toISOString());
       clearInterval(timer);
@@ -268,7 +285,9 @@ btnLoan.addEventListener('click', function (e) {
     renewUI(currentAccount);
     clearInterval(timer);
     timer = logOutTimer();
-  } else alert('Sorry, you are not eligible for loan!');
+  }
+  // else
+  // {alert('Sorry, you are not eligible for loan!')};
   inputLoanAmount.value = '';
   inputLoanAmount.blur();
 });
