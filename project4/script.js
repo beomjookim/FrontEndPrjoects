@@ -261,7 +261,7 @@ btnTransfer.addEventListener('click', async e => {
         )
           .then(res => res.json())
           .catch(e => {
-            console.error({ message: 'error!', error: e });
+            console.error({ message: 'error caught!', error: e });
           });
         exRate = response[API_KEY][0];
       }
