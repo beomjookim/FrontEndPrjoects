@@ -133,4 +133,4 @@
 <br align="left">  
   I used exchange rate API to convert money based on currency of each user when transferring. For example, when Jonah(EUR) send € 100 to Jessica, Jonah has -€1000 on his account, while Jessica gets +$1167 on her account. The ER between EUR:USD was 1:1.167 at the time. Exchange rate in real time is applied!
   
-  실시간 환율 API를 활용하여 사용하는 통화가 다른 유저 간의 송금 시에 자동으로 환율을 적용한 금액이 표기되게끔 하였습니다. 예를 들어 유로화를 사용하는 Jonah가 달러화를 사용하는 Jessica에게 €1000 을 보냈을 때, 당시 환율 1:1.167을 적용한 금액인 $1167이 Jessica의 통장에 찍힌 것을 확인할 수 있습니다. 실시간 환율을 적용한 결과입니다!
+  실시간 환율 API를 활용하여 통화가 다른 유저 간의 송금 시에 자동으로 환율을 적용한 금액이 표기되게끔 하였습니다. 예를 들어 유로화를 사용하는 Jonah가 달러화를 사용하는 Jessica에게 €1000 을 보냈을 때, 당시 환율 1:1.167을 적용한 금액인 $1167이 Jessica의 통장에 찍힌 것을 확인할 수 있습니다. 실시간 환율을 적용한 결과입니다!
